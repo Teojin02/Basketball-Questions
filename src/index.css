@@ -27,11 +27,14 @@ button {
     display: block;
     margin:10px;
     margin-left: 100px;
-    
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: lightblue;
+    pointer-events: all;
 }
 
 .score-section {
@@ -39,7 +42,12 @@ button:hover {
   font-size: 45px;
   align-items: center;
   font-family: 'Rubik', sans-serif;
+  border-style: dashed;
+   border: 2px solid;
+  border-radius: 5px;
+  
 }
+
 
 
 
