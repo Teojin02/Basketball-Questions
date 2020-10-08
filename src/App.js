@@ -3,17 +3,17 @@ import React, { useState } from "react";
 export default function App () {
     const questions = [
         {
-            questionsText: "Who has the most rings in the nba?",
+            questionsText: "Who has the most rings in the NBA?",
             answerOptions: [
                 {answerText: 'Bill Russel', isCorrect: true},
-                {answerText: 'Micheal Jordan', isCorrect: false},
+                {answerText: 'Michael Jordan', isCorrect: false},
                 {answerText: 'Kobe Bryant', isCorrect: false},
                 {answerText: 'Magic Johnson ', isCorrect: false},
             ],
         },
 
         {
-            questionsText: "Who scored the most points in the nba?",
+            questionsText: "Who scored the most points in the NBA?",
             answerOptions: [
                 {answerText: 'Lebron James', isCorrect: false},
                 {answerText: 'Karl Malone', isCorrect: false},
@@ -22,19 +22,19 @@ export default function App () {
             ],
         },
           {
-            questionsText: "Who has the most assist ",
+            questionsText: "Who has the most assist in the NBA?",
             answerOptions: [
                 {answerText: 'Lebron James', isCorrect: false},
-                {answerText: 'Micheal Jordan', isCorrect: false},
+                {answerText: 'Michael Jordan', isCorrect: false},
                 {answerText: 'John Stockton', isCorrect: true},
                 {answerText: 'Magic Johnson ', isCorrect: false},
             ],
         },
           {
-            questionsText: "When did Micheal Jordan won his first MPV ?",
+            questionsText: "When did MichAEl Jordan won his first MVP?",
             answerOptions: [
                 {answerText: '1985-86', isCorrect: false},
-                {answerText: '1992-1993', isCorrect: false},
+                {answerText: '1992-93', isCorrect: false},
                 {answerText: '1987-88', isCorrect: true},
                 {answerText: '1998-99', isCorrect: false},
             ],
@@ -42,7 +42,7 @@ export default function App () {
           {
             questionsText: "Who invented basketball?",
             answerOptions: [
-                {answerText: 'Micheal Jordan', isCorrect: false},
+                {answerText: 'Michael Jordan', isCorrect: false},
                 {answerText: 'Adam Silver', isCorrect: false},
                 {answerText: 'Tyrone Corbin', isCorrect: false},
                 {answerText: 'James Naismith', isCorrect: true},
@@ -60,12 +60,12 @@ export default function App () {
             answerOptions: [
                 {answerText: 'Lebron James', isCorrect: true},
                 {answerText: 'Kobe Bryant', isCorrect: true},
-                {answerText: 'Micheal Jordan', isCorrect: true},
+                {answerText: 'MichAel Jordan', isCorrect: true},
                 {answerText: "shaquille O'neal", isCorrect: true},
             ],
         },
            {
-            questionsText: "Who was the first player to be drafted in the NBA",
+            questionsText: "Who was the first player to be drafted in the NBA?",
             answerOptions: [
                 {answerText: 'Dan Gadzuric', isCorrect: false},
                 {answerText: 'Clifton McNeeley', isCorrect: true},
